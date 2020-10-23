@@ -6,7 +6,7 @@ app description: Represent! is an app providing users related information about 
 
 screenshots:
 br
-![screenshot1](https://github.com/XTLiuuu/cs260-prog02/blob/master/ss1.png =100x20)
-![screenshot2](https://github.com/XTLiuuu/cs260-prog02/blob/master/ss2.png =100x20)
-![screenshot3](https://github.com/XTLiuuu/cs260-prog02/blob/master/ss3.png =100x20)
-![screenshot4](https://github.com/XTLiuuu/cs260-prog02/blob/master/ss4.png =100x20)
+![screenshot1](https://github.com/XTLiuuu/cs260-prog02/blob/master/ss1.png)
+![screenshot2](https://github.com/XTLiuuu/cs260-prog02/blob/master/ss2.png)
+![screenshot3](https://github.com/XTLiuuu/cs260-prog02/blob/master/ss3.png)
+![screenshot4](https://github.com/XTLiuuu/cs260-prog02/blob/master/ss4.png)
