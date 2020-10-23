@@ -18,5 +18,10 @@ public class DetailGet extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void back(View view) {
+        Intent intent = new Intent(this, ResultSearch.class);
+        startActivity(intent);
+    }
 }
 

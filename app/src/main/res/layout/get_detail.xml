@@ -18,27 +18,66 @@
         android:textColor="#EDE5E5"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/personcard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/personcard"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="20dp"
+        android:background="#CCCECE"
+        app:cardBackgroundColor="#CCCECE"
+        app:layout_constraintBottom_toTopOf="@+id/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_first">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="297dp"
+            android:text="PERSON DETAIL" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="150sp"
+        android:height="50sp"
+        android:includeFontPadding="false"
+        android:onClick="back"
+        android:text="BACK"
+        android:textAlignment="center"
+        android:textColor="#118575"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/mainmenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personcard" />
 
     <Button
         android:id="@+id/mainmenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="96dp"
-        android:width="220sp"
-        android:height="80sp"
+        android:width="150sp"
+        android:height="50sp"
         android:includeFontPadding="false"
-        android:text="Main Menu"
         android:onClick="main_menu"
+        android:text="Main Menu"
         android:textAlignment="center"
         android:textColor="#118575"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textview_first" />
+        app:layout_constraintTop_toBottomOf="@+id/back" />
 </androidx.constraintlayout.widget.ConstraintLayout>

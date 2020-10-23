@@ -22,25 +22,28 @@ public class ResultSearch extends AppCompatActivity {
 
     String api_key = "AIzaSyDAPFpmm620lRGeVN5v3qtwFvtkqOZbtdo";
     String GEO_URL = "https://maps.googleapis.com/maps/api/geocode/json";
+    String address;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Bundle extras = getIntent().getExtras();
-        if (extras != null) {
-            String address = extras.getString("address");
-            String zipcode = extras.getString("zipcode");
-            System.out.println("address");
-            System.out.println(address);
-            System.out.println("zipcode");
-            System.out.println(zipcode);
-            if(zipcode != null) {
-                address = convertToAddress(zipcode);
-            }
-            searchResult(address);
-        }
-        //List<CongressStaff> congress_staff = searchResult(address);
+//        if (extras == null) {
+//            return;
+//        }
+//        address = extras.getString("address");
+//        String zipcode = extras.getString("zipcode");
+//        System.out.println("address");
+//        System.out.println(address);
+//        System.out.println("zipcode");
+//        System.out.println(zipcode);
+//        if(zipcode != null) {
+//            address = convertToAddress(zipcode);
+//        }
+        //searchResult(address);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search_result);
+//        TextView addressTV = findViewById(R.id.address);
+//        addressTV.setText(address);
     }
 
     public void get_detail(View view) {

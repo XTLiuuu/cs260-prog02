@@ -63,7 +63,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/random_search"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/search_by_address" />
 
@@ -86,7 +85,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/get_current_location" />
 </androidx.constraintlayout.widget.ConstraintLayout>
